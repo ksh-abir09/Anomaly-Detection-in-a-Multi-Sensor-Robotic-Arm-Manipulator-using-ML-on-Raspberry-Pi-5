@@ -1,0 +1,59 @@
+{
+  "best_model": "rf",
+  "metrics": [
+    {
+      "model": "rf",
+      "accuracy": 0.978,
+      "f1": 0.9732360097323601,
+      "pr_auc": 0.9943220808396744,
+      "auroc": 0.9965083333333333,
+      "latency_ms": 2.445133250002982,
+      "size_mb": 2.1904077529907227
+    },
+    {
+      "model": "rbf_svm",
+      "accuracy": 0.978,
+      "f1": 0.973170731707317,
+      "pr_auc": 0.9956343683875086,
+      "auroc": 0.99715,
+      "latency_ms": 0.10941741800343152,
+      "size_mb": 0.03081989288330078
+    },
+    {
+      "model": "linear_svc",
+      "accuracy": 0.974,
+      "f1": 0.9679802955665024,
+      "pr_auc": 0.9914320448052918,
+      "auroc": 0.9947333333333334,
+      "latency_ms": 0.08603649999713525,
+      "size_mb": 0.0015077590942382812
+    },
+    {
+      "model": "hgb",
+      "accuracy": 0.973,
+      "f1": 0.966542750929368,
+      "pr_auc": 0.9962604664843655,
+      "auroc": 0.9975708333333333,
+      "latency_ms": 3.057172916000127,
+      "size_mb": 0.4388275146484375
+    },
+    {
+      "model": "sgd_logreg",
+      "accuracy": 0.963,
+      "f1": 0.9538077403245943,
+      "pr_auc": 0.9896486119045806,
+      "auroc": 0.9938916666666666,
+      "latency_ms": 0.08730574999935925,
+      "size_mb": 0.0018548965454101562
+    }
+  ],
+  "figures": [
+    "figures/fig_confusion_matrix.png",
+    "figures/fig_feature_correlation.png",
+    "figures/fig_latency.png",
+    "figures/fig_model_comparison.png",
+    "figures/fig_pr.png",
+    "figures/fig_roc.png",
+    "figures/fig_sensor_distributions.png"
+  ]
+}
