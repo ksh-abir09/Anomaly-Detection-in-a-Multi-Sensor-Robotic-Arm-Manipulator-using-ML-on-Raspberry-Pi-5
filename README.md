@@ -10,7 +10,6 @@ Using multi-sensor data (current, temperature, vibration) from four joints, the 
 - **ML**: Comparative evaluation of multiple algorithms (SGD, SVM, Random Forest, Gradient Boosting, MLP).  
 - **Deployment**: Models trained offline, exported, and deployed for low-latency inference on Raspberry Pi 5.  
 
----
 
 ## ⚙️ Hardware Setup
 - **Robotic Arm/Manipulator** – 4 DOF with servo motors.  
@@ -18,14 +17,12 @@ Using multi-sensor data (current, temperature, vibration) from four joints, the 
 - **Controller** – Raspberry Pi 5.  
 - **Driver** – PCA9685 PWM driver for servo actuation.  
 
----
 
 ## 🗃️ Data Collection
 - **Samples collected**: ~5000 labeled instances.  
 - **Normal vs Faulty conditions**: mechanical resistance, overheating, abnormal current draw, and vibration anomalies.  
 - **Features extracted**: time-domain (RMS, variance, peaks) + frequency-domain (spectral power, dominant frequency).  
 
----
 
 ## 🤖 Model Training
 - **Algorithms compared**:  
@@ -40,7 +37,6 @@ Using multi-sensor data (current, temperature, vibration) from four joints, the 
 - **Cross-validation**: Stratified 5-fold.  
 - **Export**: Best model serialized (`.pkl` / `.tflite`) for deployment.  
 
----
 
 ## 🚀 Deployment on Raspberry Pi 5
 - Pre-trained models exported from PC.  
@@ -48,7 +44,6 @@ Using multi-sensor data (current, temperature, vibration) from four joints, the 
 - Optimizations: feature scaling, quantization, batch=1 inference.  
 - Results: latency measured in **milliseconds**, suitable for live anomaly detection.  
 
----
 
 ## 📊 Results & Figures
 Figures generated from the dataset and training pipeline:  
@@ -61,7 +56,6 @@ Figures generated from the dataset and training pipeline:
 
 📂 Figures are saved in the [`figures/`](figures/) directory (PDF, SVG, PNG formats).  
 
----
 
 ## 📦 Installation
 ```bash
