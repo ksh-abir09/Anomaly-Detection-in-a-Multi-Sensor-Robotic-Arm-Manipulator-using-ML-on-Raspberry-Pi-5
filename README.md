@@ -4,6 +4,11 @@
 This repository contains the implementation of a **real-time anomaly detection and fault diagnosis system** for a robotic arm/manipulator.  
 Using multi-sensor data (current, temperature, vibration) from four joints, the system applies **machine learning (ML)** to distinguish **real faults** (mechanical/electrical) from **false alarms** (noise, current spikes, vibration artifacts).
 
+
+## 🔖 Topics
+`robotics` · `machine-learning` · `raspberry-pi` · `anomaly-detection` · `fault-diagnosis` · `edge-ai` · `manipulator`
+
+
 ### 🔑 Key Highlights
 - **Hardware**: Robotic arm with 4 servo motors, sensors, Raspberry Pi 5, PCA9685 PWM driver.  
 - **Data**: 5000+ samples under normal and faulty conditions.  
